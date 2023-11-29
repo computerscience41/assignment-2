@@ -178,7 +178,7 @@ main {
     margin-left: 90px;
 }
 
-.ten-year{
+.ten-year {
     border-radius: 8px;
     background: #FF900E;
     color: #FFF;
@@ -189,11 +189,80 @@ main {
     bottom: 100px;
 }
 
-.ten-year h2{
+.ten-year h2 {
     font-size: 4rem;
     margin: 0;
 }
 
-.ten-year p{
+.ten-year p {
     font-size: 1.5rem;
+}
+
+/* some fact card style  */
+
+.some-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 80px;
+}
+
+.some-details {
+    width: 542px;
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 80px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+/* sponsor style */
+
+.sponsor-img {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+
+.sponsor-title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sponsor-text {
+    width: 400pxx;
+    text-align: center;
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+/* footer style  */
+.footer {
+    width: 1440px;
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+
+.footer-text {
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 35px;
 }
