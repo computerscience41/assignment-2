@@ -1,8 +1,9 @@
 /* header design  */
-.header{
+.header {
     padding: 40px 200px;
     background: rgba(255, 144, 14, 0.10);
 }
+
 .header-title {
     text-align: center;
     font-family: Work Sans;
@@ -13,7 +14,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-  
+
 }
 
 nav ul {
@@ -78,4 +79,121 @@ li a {
 .banner img {
     margin-top: 20px;
     width: 100%;
+}
+
+/* main section teams style  */
+main {
+    max-width: 1440px;
+    margin: 70px auto;
+}
+
+.teams {
+    display: flex;
+    column-gap: 50px;
+}
+
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.team-img img {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+
+.team-title {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 280px;
+}
+
+.team-title-1 {
+    width: 468px;
+    color: var(--Dark-03, #727272);
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.team-title-2 {
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.team-text {
+    width: 537px;
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* feature style  */
+
+.features {
+    display: flex;
+    margin: 50px;
+    gap: 50px;
+}
+
+.title {
+    width: 468px;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 130px;
+}
+
+.card {
+    width: 470px;
+    height: 130px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.text,
+.card p {
+    width: 500px;
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.img img {
+    width: 100%;
+    height: 982px;
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+.ten-year{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 340px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.ten-year h2{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.ten-year p{
+    font-size: 1.5rem;
 }
